@@ -5,6 +5,7 @@ $(document).ready(function(){
 		$(".country").fadeOut('slow', function() {
 			$(".country").text("China");
 			$(".country").fadeIn("3s");
+			$(".cross").fadeIn("3s");
 		});
 	});
 });
