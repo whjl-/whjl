@@ -16,12 +16,12 @@ html {
   width: 100px;
   height: 100px;
   margin: 0 auto;
-  display: inline-block;
-  vertical-align: middle;
 }
 .bg {
   background-color: white;
   width: 100%;
+  display: inline-block;
+  vertical-align: middle;
   height: 700px;
 }
 
