@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @cir: 300px;
-@name: op;
 @name2: opin;
 @time: 1s;
 @occ: 1;
@@ -14,22 +13,6 @@
 .anifillmode(@mode){
 	animation-fill-mode: @mode;
 	-webkit-animation-fill-mode: @mode;
-}
-@keyframes op{
-  0%   { opacity: 1; }
-  100% { opacity: 0; }
-}
-@-o-keyframes op{
-  0%   { opacity: 1; }
-  100% { opacity: 0; }
-}
-@-moz-keyframes op{
-  0%   { opacity: 1; }
-  100% { opacity: 0; }
-}
-@-webkit-keyframes op{
-  0%   { opacity: 1; }
-  100% { opacity: 0; }
 }
 @keyframes opin{
   0%   { opacity: 0; }
@@ -65,13 +48,6 @@ body, html{
 	display: table-cell;
     vertical-align: middle;
 }
-.box{
-	.border_radius(@cir);
-	background-color: red;
-	width: @cir;
-	height: @cir;
-	margin: 0 auto;
-}
 .bg{
 	background-color: white;
 	width: 100%;
@@ -80,13 +56,6 @@ body, html{
     height: 700px;
 }
 .keyframeRun{
-	-webkit-animation: @name @time @occ;
-	-o-animation: @name @time @occ;
-	-moz-animation: @name @time @occ;
-	animation: @name @time @occ;
-	.anifillmode(forwards);
-}
-.keyframeRunIn{
 	-webkit-animation: opin 1s 1;
 	-moz-animation: opin 1s 1;
 	-o-animation: opin 1s 1;
@@ -94,7 +63,6 @@ body, html{
 	.anifillmode(forwards);
 }
 .cross{
-
 	width: @cir;
 	height: @cir;
 	margin: 0 auto;

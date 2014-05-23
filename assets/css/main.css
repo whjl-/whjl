@@ -1,36 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-@keyframes op {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@-o-keyframes op {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@-moz-keyframes op {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@-webkit-keyframes op {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 @keyframes opin {
   0% {
     opacity: 0;
@@ -82,17 +50,6 @@ html {
   display: table-cell;
   vertical-align: middle;
 }
-.box {
-  -webkit-border-radius: 300px;
-  -moz-border-radius: 300px;
-  -o-border-radius: 300px;
-  -ms-border-radius: 300px;
-  border-radius: 300px;
-  background-color: red;
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
-}
 .bg {
   background-color: white;
   width: 100%;
@@ -101,14 +58,6 @@ html {
   height: 700px;
 }
 .keyframeRun {
-  -webkit-animation: op 1s 1;
-  -o-animation: op 1s 1;
-  -moz-animation: op 1s 1;
-  animation: op 1s 1;
-  animation-fill-mode: forwards;
-  -webkit-animation-fill-mode: forwards;
-}
-.keyframeRunIn {
   -webkit-animation: opin 1s 1;
   -moz-animation: opin 1s 1;
   -o-animation: opin 1s 1;
