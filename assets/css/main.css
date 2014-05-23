@@ -70,7 +70,7 @@ html {
   position: absolute;
   height: 700px;
 }
-.box:hover .bg {
+.bg:hover .box {
   -webkit-animation: op 1s 1;
   -o-animation: op 1s 1;
   -moz-animation: op 1s 1;
