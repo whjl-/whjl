@@ -76,4 +76,11 @@ html {
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
 }
+.cross {
+  display: none;
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
 
