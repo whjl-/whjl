@@ -75,5 +75,6 @@ html {
   -moz-animation: op 1s 1;
   animation: op 1s 1;
   animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
 }
 
