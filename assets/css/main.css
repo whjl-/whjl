@@ -11,14 +11,14 @@ html {
   vertical-align: middle;
 }
 .box {
-  -webkit-border-radius: 400px;
-  -moz-border-radius: 400px;
-  -o-border-radius: 400px;
-  -ms-border-radius: 400px;
-  border-radius: 400px;
+  -webkit-border-radius: 300px;
+  -moz-border-radius: 300px;
+  -o-border-radius: 300px;
+  -ms-border-radius: 300px;
+  border-radius: 300px;
   background-color: red;
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   margin: 0 auto;
 }
 .bg {
