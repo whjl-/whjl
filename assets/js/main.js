@@ -1,1 +1,5 @@
-var a = 1;
+$(document).ready(function(){
+	$(".box").one("mouseover", function() {
+		$(".box").addClass('keyframeRun');
+	});
+});
