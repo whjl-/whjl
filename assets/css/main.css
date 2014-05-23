@@ -109,6 +109,7 @@ html {
   -webkit-animation-fill-mode: forwards;
 }
 .keyframeRunIn {
+  background-color: blue;
   -webkit-animation: opin 1s 1;
   -o-animation: opin 1s 1;
   -moz-animation: opin 1s 1;
