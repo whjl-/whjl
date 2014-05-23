@@ -77,7 +77,7 @@ html {
   -webkit-animation-fill-mode: forwards;
 }
 .cross {
-  visible: none;
+  visiblity: none;
   width: 300px;
   height: 300px;
   margin: 0 auto;
