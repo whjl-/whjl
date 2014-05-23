@@ -60,8 +60,6 @@ html {
   width: 300px;
   height: 300px;
   margin: 0 auto;
-  animation-fill-mode: forwards;
-  -webkit-animation-fill-mode: forwards;
 }
 .bg {
   background-color: white;
