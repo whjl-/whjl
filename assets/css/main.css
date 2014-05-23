@@ -31,32 +31,6 @@
     opacity: 1;
   }
 }
-body,
-html {
-  background-color: white;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-}
-.title {
-  font-family: "Montserrat", sans-serif;
-  color: #1a1a1a;
-  font-size: 300%;
-  font-weight: normal;
-  text-align: center;
-}
-.boxwrap {
-  display: table-cell;
-  vertical-align: middle;
-}
-.bg {
-  background-color: white;
-  width: 100%;
-  display: table;
-  position: absolute;
-  height: 700px;
-}
 .cross {
   width: 300px;
   height: 300px;

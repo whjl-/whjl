@@ -2,13 +2,6 @@
 @cir: 300px;
 @time: 1s;
 @occ: 1;
-.border_radius(@rad){
-	-webkit-border-radius: @rad;
-	-moz-border-radius: @rad;
-	-o-border-radius: @rad;
-	-ms-border-radius: @rad;
-	border-radius: @rad;
-}
 .anifillmode(@mode){
 	animation-fill-mode: @mode;
 	-webkit-animation-fill-mode: @mode;
@@ -29,31 +22,7 @@
   0%   { opacity: 0; }
   100% { opacity: 1; }
 }
-body, html{
-	background-color: white;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 100%;
-}
-.title{
-	font-family: "Montserrat", sans-serif;
-	color: lighten(black, 10%);
-	font-size: 300%;
-	font-weight: normal;
-	text-align: center;
-}
-.boxwrap{
-	display: table-cell;
-    vertical-align: middle;
-}
-.bg{
-	background-color: white;
-	width: 100%;
-	display: table;
-    position: absolute;
-    height: 700px;
-}
+
 .cross{
 	width: @cir;
 	height: @cir;
