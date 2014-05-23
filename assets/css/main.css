@@ -31,6 +31,38 @@
     opacity: 0;
   }
 }
+@keyframes opin {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes opin {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes opin {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes opin {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 body,
 html {
   background-color: white;
@@ -73,6 +105,14 @@ html {
   -o-animation: op 1s 1;
   -moz-animation: op 1s 1;
   animation: op 1s 1;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+.keyframeRunIn {
+  -webkit-animation: opin 1s 1;
+  -o-animation: opin 1s 1;
+  -moz-animation: opin 1s 1;
+  animation: opin 1s 1;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
 }

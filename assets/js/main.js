@@ -6,6 +6,6 @@ $(document).ready(function(){
 			$(".country").text("Switzerland");
 			$(".country").fadeIn("3s");
 		});
-		$(".cross").fadeIn("3s");
+		$(".cross").addClass('keyframeRunIn');
 	});
 });

@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @cir: 300px;
 @name: op;
+@name2: opin;
 @time: 1s;
 @occ: 1;
 .border_radius(@rad){
@@ -27,6 +28,22 @@
   100% { opacity: 0; }
 }
 @-webkit-keyframes op{
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes opin{
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-o-keyframes opin{
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-moz-keyframes opin{
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-webkit-keyframes opin{
   0%   { opacity: 1; }
   100% { opacity: 0; }
 }
@@ -67,6 +84,13 @@ body, html{
 	-o-animation: @name @time @occ;
 	-moz-animation: @name @time @occ;
 	animation: @name @time @occ;
+	.anifillmode(forwards);
+}
+.keyframeRunIn{
+	-webkit-animation: @name2 @time @occ;
+	-o-animation: @name2 @time @occ;
+	-moz-animation: @name2 @time @occ;
+	animation: @name2 @time @occ;
 	.anifillmode(forwards);
 }
 .cross{
