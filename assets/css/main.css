@@ -1,4 +1,36 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@keyframes op {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes op {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes op {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes op {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 body,
 html {
   background-color: white;
@@ -35,5 +67,11 @@ html {
   display: table;
   position: absolute;
   height: 700px;
+}
+.box:hover {
+  -webkit-animation: op 1s infinite;
+  -o-animation: op 1s infinite;
+  -moz-animation: op 1s infinite;
+  animation: op 1s infinite;
 }
 

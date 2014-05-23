@@ -7,6 +7,28 @@
 	-ms-border-radius: @rad;
 	border-radius: @rad;
 }
+.animation(@name, @time, @occ){
+	-webkit-animation: @name @time @occ;
+	-o-animation: @name @time @occ;
+	-moz-animation: @name @time @occ;
+	animation: @name @time @occ;
+}
+@keyframes op{
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes op{
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes op{
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-webkit-keyframes op{
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
 body, html{
 	background-color: white;
 	margin: 0;
@@ -38,4 +60,7 @@ body, html{
 	display: table;
     position: absolute;
     height: 700px;
+}
+.box:hover{
+	.animation(op, 1s, infinite);
 }
