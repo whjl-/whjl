@@ -1,6 +1,11 @@
-body {
-  background-color: #ff0000;
-  font-family: Tahoma, sans-serif;
-  color: #0000ff;
+.box {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  background-color: red;
+  width: 100px;
+  height: 100px;
 }
 

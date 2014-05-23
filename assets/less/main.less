@@ -1,7 +1,13 @@
-@textcol: blue;
-@col: red;
-body{
-	background-color: @col;
-	font-family: Tahoma, sans-serif;
-	color: @textcol;
+.border_radius(@rad){
+	-webkit-border-radius: @rad;
+	-moz-border-radius: @rad;
+	-o-border-radius: @rad;
+	-ms-border-radius: @rad;
+	border-radius: @rad;
+}
+.box{
+	.border_radius(5px);
+	background-color: red;
+	width: 100px;
+	height: 100px;
 }
