@@ -85,7 +85,7 @@ html {
   content: "";
   position: absolute;
   z-index: -1;
-  background: #d00;
+  background: red;
 }
 .cross:before {
   left: 50%;
