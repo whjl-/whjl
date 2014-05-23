@@ -33,34 +33,34 @@
 }
 @keyframes opin {
   0% {
-    opacity: 1;
+    opacity: 0;
   }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 @-o-keyframes opin {
   0% {
-    opacity: 1;
+    opacity: 0;
   }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 @-moz-keyframes opin {
   0% {
-    opacity: 1;
+    opacity: 0;
   }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 @-webkit-keyframes opin {
   0% {
-    opacity: 1;
+    opacity: 0;
   }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 body,
@@ -117,7 +117,7 @@ html {
   -webkit-animation-fill-mode: forwards;
 }
 .cross {
-  visiblity: none;
+  display: none;
   width: 300px;
   height: 300px;
   margin: 0 auto;
