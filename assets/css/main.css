@@ -110,8 +110,8 @@ html {
 }
 .keyframeRunIn {
   -webkit-animation: opin 1s 1;
-  -o-animation: opin 1s 1;
   -moz-animation: opin 1s 1;
+  -o-animation: opin 1s 1;
   animation: opin 1s 1;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
