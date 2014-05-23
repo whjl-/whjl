@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 body,
 html {
   background-color: white;
@@ -7,7 +8,7 @@ html {
   height: 100%;
 }
 .title {
-  font-family: Georgia, serif;
+  font-family: "Montserrat", sans-serif;
   color: darkgrey;
   font-size: 300%;
   font-weight: normal;
